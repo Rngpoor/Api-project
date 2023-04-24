@@ -8,11 +8,12 @@ namespace currency2
 {
     public class currencymodel
     {
-        public string buy { get; set; }
-        public string sell { get; set; }
-        public string high { get; set; }
-        public string low { get; set; }
-        public string averagePrice { get; set; }
+         public double buy { get; set; }
+        public double sell { get; set; }
+        public double high { get; set; }
+        public double low { get; set; }
+        public double averagePrice { get; set; }
+
 
 
     }
