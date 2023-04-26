@@ -12,7 +12,7 @@ namespace currency5
             string address = @"F:\currency data\time.text";
             StreamWriter stwriter = new StreamWriter(address);
 
-            TimeSpan tens = new TimeSpan(0, 0, 10);
+            TimeSpan tens = new TimeSpan(0, 10, 0);
 
             for (int i = 0; i < 6; i++)
             {
